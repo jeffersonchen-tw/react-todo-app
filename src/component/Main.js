@@ -49,7 +49,7 @@ export default function Main() {
                           id: doc.id,
                           todo: doc.data().todo,
                           in_progress: doc.data().in_progress,
-                          deadline: doc.data().deadline.toDate().toLocaleString(undefined, {year: "numeric", month: "numeric"
+                          deadline: doc.data().deadline.toDate().toLocaleString("zh-TW", {year: "numeric", month: "numeric"
                         , day: "numeric", hour:" 2-digit", minute: "2-digit"}),
                           detail: doc.data().detail
                       }
